@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestForMyCapture</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="prompt1">将取景框对准二维码,</string>
+    <string name="prompt2">即可自动扫描。</string>
+    <string name="scan">扫一扫</string>
+    <string name="back">返回</string>
+    <string name="scanresult">扫描结果</string>
+    <string name="myqr">我的二维码</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_my_qr">MyQrActivity</string>
+
+</resources>

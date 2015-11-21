@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.testformycapture.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="@dimen/btnscan"
+            android:layout_height="@dimen/btnscan"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/device_scan" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/scan"
+            android:layout_alignBottom="@+id/scan"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@+id/scan"
+            android:layout_marginTop="5dp"
+            android:text="@string/scan"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>
