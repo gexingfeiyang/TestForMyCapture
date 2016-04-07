@@ -1,3 +1,4 @@
+
 # TestForMyCapture
 android Zxing扫描二维码
 1：工程中需要引入android-support-v7-appcompat
